@@ -1,23 +1,28 @@
-# U.S. Measles Vaccination Data
+# Portfolio Description: Measles Vaccination Data Analysis
 
-This repository contains immunization rate data for schools across the U.S., as compiled by The Wall Street Journal. The dataset includes the overall and MMR-specific vaccination rates for **46,412** schools in **32** states. As used in [“What’s the Measles Vaccination Rate at Your Child’s School?“](https://www.wsj.com/graphics/school-measles-rate-map/). 
+This project delves into a detailed dataset that contains vaccination information for schools across the United States. Each entry in the dataset represents a school and includes:
+- Overall immunization rates
+- Specific MMR (measles, mumps, and rubella) vaccination rates
+- Metadata such as geographic coordinates and school names
 
-Vaccination rates are for the 2017-18 school year for Colorado, Connecticut, Minnesota, Montana, New Jersey, New York, North Dakota, Pennsylvania, South Dakota, Utah and Washington. Rates for other states are 2018-19.
+Through data exploration, visualization, and analysis, this project aims to uncover trends and regional disparities in vaccination rates, providing actionable insights into the national vaccination landscape. This showcase demonstrates my data skills and builds my portfolio.
 
-It is available under the [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
+# Original Data Source and Credits
+
+This repository is a fork of the original repository available at [WSJ/measles-data](https://github.com/WSJ/measles-data) and contains immunization rate data for schools across the U.S., as compiled by The Wall Street Journal. The dataset includes the overall and MMR-specific vaccination rates for **46,412** schools in **32** states, as used in [“What’s the Measles Vaccination Rate at Your Child’s School?“](https://www.wsj.com/graphics/school-measles-rate-map/).
+
+Vaccination rates are for the 2017-18 school year for Colorado, Connecticut, Minnesota, Montana, New Jersey, New York, North Dakota, Pennsylvania, South Dakota, Utah, and Washington. Rates for other states are 2018-19.
 
 ## Files
 
 Our data is broken down into a few files:
-
 | File  | Description |
 | ------------- | ------------- |
 | all-measles-rates.csv  | Data for each individual school  |
 | state-overview.csv  | More generalized data by state counties or state school districts  |
-| individual-states/[STATE].csv  | Same data as all-measles-rates, but seperated by state  |
+| individual-states/[STATE].csv  | Same data as all-measles-rates, but separated by state  |
 
 ## Attributes
-
 
 | Attribute  | Description | Optional? |
 | ------------- | ------------- | ------------- |
@@ -26,7 +31,7 @@ Our data is broken down into a few files:
 | county  | School's county  | y  |
 | district  | School's district  | y  |
 | name  | School name  |   |
-| type  | Whether a school is public, private, charter   | y  |
+| type  | Whether a school is public, private, or charter   | y  |
 | enroll  | Enrollment*  | y  |
 | mmr  | School's Measles, Mumps, and Rubella (MMR) vaccination rate  | y  |
 | overall  | School's overall vaccination rate  | y  |
@@ -40,8 +45,7 @@ _Depending on the state, enrollment is for kindergarten only or may extend to in
 
 ## Available States
 
-We currently have data for the following **32** states.
-
+We currently have data for the following **32** states:
 - Arizona
 - Arkansas
 - California
